@@ -4,18 +4,35 @@
     <meta charset="UF-8">
 </head>
 
-<!--Combining Words-->
 <body>
     <script src="JS/main.js"></script>
 
     <script>
         // Creating variables //
-        var firstWord = "firsthalf";
-        var secondWord = " secondhalf";
-        // Returning Value //
-        document.write(combineWords(firstWord, secondWord));
+        var firstNum = 3;
+        var secondNum = 11;
+        //Function Calculations//
+        document.write(addNum(firstNum,secondNum));
+            document.write("<br>");
+        document.write(subNum(firstNum,secondNum));
+            document.write("<br>");
+        document.write(mulNum(firstNum,secondNum));
+            document.write("<br>");
+        document.write(remNum(firstNum,secondNum));
+            document.write("<br>");
+        document.write(moreNum(firstNum));
+            document.write("<br>")
+        document.write(lessNum(firstNum));
+            document.write("<br>")
+
+        //Random Number//
+        document.write(Math.floor(Math.random()*10));
+            document.write("<br>")
+
     </script>
+
+        <!--Using an Event Handler-->
+        <button onclick="creatingWords()">Create text</button>
 </body>
-<!--END of Combining Words-->
 
 </html>
