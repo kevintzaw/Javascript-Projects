@@ -8,6 +8,7 @@ function myFunction1() {
     document.getElementById("demo1").innerHTML = diffCar + " " + mainName;
 }
 
+//If and Else Test//
 function movieTest(){
     var x, text;
 
@@ -22,4 +23,12 @@ function movieTest(){
     }
     //Connection to HTML//
     document.getElementById("demo2").innerHTML = text;
+
+}
+
+//Intentional Error//
+function myFunction1() {
+    var testError
+    //Connection to HTML//
+    document.getElementById("demo3").innerHTML =  testError
 }
