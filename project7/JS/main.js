@@ -27,7 +27,7 @@ function movieTest(){
 }
 
 //Intentional Error//
-function myFunction1() {
+function testFunction() {
     var testError
     //Connection to HTML//
     document.getElementById("demo3").innerHTML =  testError
